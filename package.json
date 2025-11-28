@@ -1,0 +1,23 @@
+{
+  "name": "ccapdev-s16-10-mco-mco3-draft1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "express-session": "^1.18.2",
+    "mongoose": "^9.0.0"
+  }
+}
